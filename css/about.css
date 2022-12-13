@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+    
+}
+/* This is the start of the nav */
+nav{
+    height: 60px;
+    width: 100%;
+    background: rgb(67,142,255);
+    background: linear-gradient(94deg, rgba(67,142,255,1) 29%, rgba(99,117,203,1) 66%);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.logo{
+    float: left;
+}
+nav ul{
+    list-style-type: none;
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 20px 20px;
+}
+nav ul li:hover{
+    color: hotpink;
+}
+nav ul li:active{
+    color: crimson;
+}
+/* This is the end of the nav */
+
+/* This is the start of the hero */
+main{
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+.hero-text{
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.ablst li{
+    text-decoration: none;
+    font-size: 14px;
+    
+}
+.company{
+    font-size:50px;
+}
+.herop{
+    font-size: 25px;
+}
+/* section map beginning */
+.aboutsection{
+    width: 100%;
+    height: auto;
+
+}
+.sectcolumn {
+    float: left;
+    width: 50%;
+}
+.sectrcolumn {
+    float: right;
+    width: 50%;
+    text-align: center;
+    padding-top: 4%;
+}
+.aboutsection:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* end section map */
+
+
+/* This is the start of the footer */
+footer{
+    width: 100%;
+    height: 200px;
+    background: rgb(67,142,255);
+    background: linear-gradient(94deg, rgba(67,142,255,1) 29%, rgba(99,117,203,1) 66%);
+}
+.footerCol{
+    width: 33%;
+    height: 200px;
+    float: left;
+    text-align: center;
+}
+.columnTwo{
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+.footerCol ul{
+    list-style-type: none;
+    position: relative;
+    top: 20%;
+}
+.footerCol ul a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 25px;
+}
+.footerCol ul a:hover{
+    color: hotpink;
+}
+.footerCol ul a:active{
+    color:crimson;
+}
+.footerCol p{
+    color: #fff;
+    position: relative;
+    top: 50%;
+}
+.footerCol a{
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    top: 45%;
+    margin: 20px;
+}
+.footerCol a:hover{
+    color: rgb(203, 104, 59);
+}
+.footerCol a:active{
+    color: crimson;
+}
+.qr{
+    width: auto;
+    height: 138px;
+    padding-bottom: 10px;
+    
+}
+/* This is the end of the footer */
+
